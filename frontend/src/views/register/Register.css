@@ -1,0 +1,42 @@
+.Register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    text-align: center;
+}
+
+.Register > .Content{
+    padding: 1em;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    min-width: 30vw;
+}
+
+.Register > .Content > form{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Register > .Content > form > input{
+    all: unset;
+    padding: 1em;
+    text-align: left;
+    background-color: white;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    width: 90%;
+}
+
+.Register > .Content > form > button{
+    margin-top: 1em;
+}
+
+.formError{
+    color:red;
+    font-weight: bold;
+}

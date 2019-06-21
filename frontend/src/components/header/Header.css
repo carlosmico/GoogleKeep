@@ -1,0 +1,35 @@
+header{
+    width: 100%;
+    background-color: white;
+    color: grey;
+    padding: 1em;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.12), inset 0 -1px 0 0 #dadce0;
+}
+
+header > .buttoner{
+    display: flex;
+    align-items: center;
+}
+
+header > .buttoner > *{
+    margin-left: 1em;
+}
+
+header > a{
+    display: flex;
+    align-items: center;
+}
+
+header > a > img{
+    height: 35px;
+    margin-left: 1em;
+}
+
+header > a > h1{
+    margin-left: 0.5em;
+    font-size: 1.5em;
+}
+

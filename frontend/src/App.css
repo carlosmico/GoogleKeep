@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+ 
+
+.customButton{
+  all: unset;
+    background-color: #1a73e8;
+    color: white;
+    padding: 15px 24px;
+    border-radius: 0.2em;
+    cursor: pointer;
+}
+
+.customButton:hover{
+  background-color: #1357b1;
+}
+
+a{
+  all:unset;
+
+  color: gray;
+  font-weight: bold;
+  cursor: pointer;
+}

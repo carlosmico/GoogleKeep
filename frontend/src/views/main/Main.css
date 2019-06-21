@@ -1,0 +1,28 @@
+.Main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
+    height: 90vh;
+}
+
+.Main > *{
+    margin: 1em;
+}
+
+.Main > img{
+    width: 80%;
+    max-width: 420px;
+    max-height: 280px;
+}
+
+.Main > h1{
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.Main>a{
+    margin-top: 1.5em;
+}

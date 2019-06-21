@@ -1,0 +1,19 @@
+.Notes{
+    padding: 2em;
+}
+
+.Notes > .Content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Notes > .Content > input{
+    all: unset;
+    padding: 1em;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0 3px 7px 1px lightgrey;
+    width: 70vw;
+    max-width: 600px;
+}

@@ -1,0 +1,42 @@
+.Login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
+}
+
+.Login > .Content{
+    padding: 1em;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    min-width: 30vw;
+}
+
+.Login > .Content > form{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Login > .Content > form > input{
+    all: unset;
+    padding: 1em;
+    text-align: left;
+    background-color: white;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    width: 90%;
+}
+
+.Login > .Content > form > button{
+    margin-top: 1em;
+}
+
+.Login > .Content p.error{
+    color: red;
+    font-weight: bold;
+}
